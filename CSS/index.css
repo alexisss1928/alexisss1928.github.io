@@ -12,6 +12,22 @@ body {
   text-align: center;
 }
 
+.image{
+  width:50%;
+  height: 100vh;
+  background-image: url("../assets/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main{
+  width:50%;
+}
+
+hr{
+  width:40%;
+}
+
 h1 {
   font-family: 'Work Sans', sans-serif;
   font-size: 3.5rem;
@@ -25,4 +41,14 @@ p {
 span {
   font-style: italic;
   font-size: .8rem;
+}
+
+@media (max-width: 780px){
+  .image{
+    display: none;
+  }
+
+  .main{
+    width: 100%;
+  }
 }
