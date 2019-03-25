@@ -15,9 +15,9 @@ body {
 .image{
   width:50%;
   height: 100vh;
-  background-image: url("../assets/fondo.jpg");
+  background-image: url("../assets/fondo2.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: left center;
 }
 
 .main{
