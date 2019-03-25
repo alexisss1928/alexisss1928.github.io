@@ -30,17 +30,24 @@ hr{
 
 h1 {
   font-family: 'Work Sans', sans-serif;
-  font-size: 3.5rem;
+  font-size: 3.375em;
 }
 
 p {
   font-family: 'Merriweather', serif;
-  font-size: 1rem;
+  font-size: 1em;
+}
+
+a {
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  color:black;
+  text-decoration:none;
 }
 
 span {
   font-style: italic;
-  font-size: .8rem;
+  font-size: .8em;
 }
 
 @media (max-width: 780px){
